@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "../styles/Dashboard.css";
+import "../styles/dashboard.css";
 
 import SearchBar from "../components/SearchBar";
 import UserForm from "../components/UserForm";
