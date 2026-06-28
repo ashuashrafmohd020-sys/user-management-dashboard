@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import "./styles/Dashboard.css";
+import "./styles/dashboard.css";
 import "./styles/search.css";
 import "./styles/table.css";
 import "./styles/form.css";
