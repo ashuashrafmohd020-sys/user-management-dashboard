@@ -1,0 +1,136 @@
+.pagination{
+
+    margin-top:35px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    padding:20px 25px;
+
+    background:rgba(255,255,255,.18);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    border-radius:18px;
+
+    border:1px solid rgba(255,255,255,.25);
+
+    box-shadow:
+        0 20px 40px rgba(0,0,0,.15);
+
+}
+
+.pagination select{
+
+    padding:12px 15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    outline:none;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    background:white;
+
+    color:#333;
+
+}
+
+.page-buttons{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.page-buttons span{
+
+    color:white;
+
+    font-weight:600;
+
+    font-size:16px;
+
+}
+
+.page-buttons button{
+
+    padding:12px 22px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    color:white;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.page-buttons button:first-child{
+
+    background:linear-gradient(
+        135deg,
+        #3B82F6,
+        #2563EB
+    );
+
+    box-shadow:
+        0 12px 25px rgba(37,99,235,.35);
+
+}
+
+.page-buttons button:last-child{
+
+    background:linear-gradient(
+        135deg,
+        #8B5CF6,
+        #7C3AED
+    );
+
+    box-shadow:
+        0 12px 25px rgba(124,58,237,.35);
+
+}
+
+.page-buttons button:hover:not(:disabled){
+
+    transform:translateY(-3px);
+
+}
+
+.page-buttons button:disabled{
+
+    opacity:.45;
+
+    cursor:not-allowed;
+
+    transform:none;
+
+    box-shadow:none;
+
+}

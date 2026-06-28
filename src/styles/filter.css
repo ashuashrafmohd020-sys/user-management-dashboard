@@ -1,0 +1,123 @@
+.filter-popup{
+
+    margin:30px 0;
+
+    padding:30px;
+
+    border-radius:22px;
+
+    background:white;
+
+    box-shadow:
+        0 20px 40px rgba(0,0,0,.08);
+
+    animation:popup .4s ease;
+
+}
+
+.filter-popup h2{
+
+    font-size:30px;
+
+    color:#1e293b;
+
+    margin-bottom:25px;
+
+    font-weight:700;
+
+}
+
+.filter-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:18px;
+
+    margin-bottom:25px;
+
+}
+
+.filter-popup input,
+.filter-popup select{
+
+    width:100%;
+
+    padding:14px 18px;
+
+    border:1px solid #dbe4f0;
+
+    border-radius:14px;
+
+    font-size:15px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+.filter-popup input:focus,
+.filter-popup select:focus{
+
+    border-color:#2563eb;
+
+    box-shadow:
+        0 0 0 4px rgba(37,99,235,.15);
+
+}
+
+.filter-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+}
+
+.filter-buttons button{
+
+    border:none;
+
+    padding:14px 30px;
+
+    border-radius:14px;
+
+    color:white;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.filter-buttons button:hover{
+
+    transform:translateY(-3px);
+
+}
+
+.filter-buttons button:nth-child(1){
+
+    background:linear-gradient(135deg,#22c55e,#16a34a);
+
+}
+
+.filter-buttons button:nth-child(2){
+
+    background:linear-gradient(135deg,#64748b,#475569);
+
+}
+
+.filter-buttons button:nth-child(3){
+
+    background:linear-gradient(135deg,#ef4444,#dc2626);
+
+}
