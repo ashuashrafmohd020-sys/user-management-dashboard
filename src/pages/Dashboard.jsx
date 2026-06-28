@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "../styles/dashboard.css";
+import "../styles/Dashboard.css";
 
 import SearchBar from "../components/SearchBar";
 import UserForm from "../components/UserForm";
@@ -12,7 +12,7 @@ import {
   addUser as addUserService,
   updateUser as updateUserService,
   deleteUser as deleteUserService,
-} from "../services/userservice";
+} from "../services/userService";
 
 function Dashboard() {
   const [users, setUsers] = useState([]);
